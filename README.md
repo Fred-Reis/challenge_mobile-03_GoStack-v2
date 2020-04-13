@@ -1,0 +1,2 @@
+# challenge_mobile-03_GoStack-v2
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/76382909174c4006924e1932741c34ea)](https://app.codacy.com/manual/Fred-Reis/challenge_mobile-03_GoStack-v2?utm_source=github.com&utm_medium=referral&utm_content=Fred-Reis/challenge_mobile-03_GoStack-v2&utm_campaign=Badge_Grade_Dashboard)
