@@ -11,7 +11,7 @@
 
 <h3 align="center">
   <img alt="ReactNative" 
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNXLbpDpqV6pexwCuS2nvFXrLVWO435qYZeaML3caSax-HzzhX&usqp=CAU" width="180px"/>
+    src="https://toppng.com/public/uploads/thumbnail/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994bz4gmmu3qd.png" width="180px"/>
 </h3>
 
 <p align="center">
