@@ -11,7 +11,7 @@
 
 <h3 align="center">
   <img alt="ReactNative" 
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3k4N2jJBuT9gdGLvj9GD0QFf4uPU0QCbPPZCGWdfSpKvKSeSy&usqp=CAU" width="180px"/>
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNXLbpDpqV6pexwCuS2nvFXrLVWO435qYZeaML3caSax-HzzhX&usqp=CAU" width="180px"/>
 </h3>
 
 <p align="center">
@@ -77,26 +77,27 @@
 
 ## 💡 About Challenge:
 
-This challenge was to practice knowledge of the fundamentals with ReactJS.
-An application was developed to consume an API previously developed with the NodeJS.
+This challenge was to practice knowledge of the fundamentals with React Native.
+A mobile application was developed to consume an API previously developed with the NodeJS.
 
 ## 🔥 Functionalities:
 
-In this simple project, when the component is rendered, all previously created repositories are listed. Two buttons were created, the first to create a new fake repository and the other to Delete the selected repository. After clicking on these buttons, the new repository list will be rendered again.
 
-* The first button access the route: `POST /repositories`
-* The second button access the route: `DELETE /repositories/:id`
+In this simple project, when the component is rendered, all repositories created previously are listed as a list of cards with information about that repository. A button was created to add another "like" to the selected repository. After clicking this button, the new repository list will be rendered again.
 
+* The  button access the route: `POST /repositories/:id/like`
 
 ## ⚙️ Techs:
 
 * __NodeJS__;
 * __ReactJS__;
+* __React Native__;
 * Yarn;
 * Jest;
 
 ## ⛏ Tools:
 
+* [Insomnia](https://insomnia.rest/download/);
 * [Notion](https://www.notion.so/?utm_source=google&utm_campaign=brand_alpha&utm_content=row&utm_term=notion&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHs5ggnFG4dmfW38kOuGDTQS1-YjRGg01PuIriv8ftUuAUzeoU7QFFxoCAkIQAvD_BwE)
 
 
@@ -105,7 +106,7 @@ In this simple project, when the component is rendered, all previously created r
 To run on the first time, into your folder:
 
 ```bash
-$ git clone https://github.com/Fred-Reis/challenge_frontEnd-02_GoStack-v2
+$ git clone https://github.com/Fred-Reis/challenge_mobile-03_GoStack-v2
 ```
 
 Into repo folder, to intall ```Node_Modules``` run:
@@ -117,13 +118,20 @@ yarn
 To link with IOS:
 
 ```bash
+cd ios
+
 pod install
 ```
 
-And to start the aplication in your browser, run: 
+And to run the aplication in your device run: 
 
-```bash
-yarn start
+```js
+// to android device / emulator
+react-native run-android
+
+// to ios device / emulator
+react-native run-ios
+
 ```
 
 
@@ -131,6 +139,8 @@ yarn start
 
 
 ___To take advantage of this application, you need [the back-end server](https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2) to be running.___
+
+> Recommend using [Insomnia](https://insomnia.rest/download/) to test routes
 
 <br/>
 
