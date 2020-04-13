@@ -87,7 +87,7 @@ In this simple project, when the component is rendered, all repositories created
 
 * The  button access the route: `POST /repositories/:id/like`
 
-<img src="src/assets/mobile.png" height="100px"/>
+<img src="src/assets/mobile.png" height="250px"/>
 
 ## ⚙️ Techs:
 
